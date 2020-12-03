@@ -1,0 +1,62 @@
+# Strange way of testing for vortex...
+# #ifdef NON_VORTEX
+TITLE: Quantum Computing Material
+
+TOC: off
+# #else
+TITLE: Quantum Computing Material
+AUTHOR: Department of Physics and Astronomy and National Superconducting Cyclotron Laboratory, Michigan State University, USA
+# #endif
+
+<%
+pub_url = 'http://compphysics.github.io/ComputationalPhysics/doc/pub'
+published = ['intro',]
+chapters = {
+ 'intro': 'Introduction to quantum computing',
+}
+%>
+
+
+
+
+
+<%def name="text_types(name)">
+
+ * LaTeX PDF:
+   * For printing:
+     * "Standard one-page format": "${pub_url}/${name}/pdf/${name}-print.pdf", compact: "6 pages per sheet": "${pub_url}/${name}/pdf/${name}-print6.pdf"
+   * For screen viewing:
+     * "standard Beamer format": "${pub_url}/${name}/pdf/${name}-beamer.pdf"
+ * HTML:
+   * "Plain html": "${pub_url}/${name}/html/${name}.html"
+   * "reveal.js beige slide style": "${pub_url}/${name}/html/${name}-reveal.html"
+   * "Bootstrap  slide style, easy for reading on mobile devices": "${pub_url}/${name}/html/${name}-bs.html"
+ * iPython notebook:
+   * "ipynb file": "${pub_url}/${name}/ipynb/${name}.ipynb"
+</%def>
+
+<%def name="slide_types(name)">
+</%def>
+
+
+======= Quantum Computing Materials =======
+
+% for ch in published:
+===== ${chapters[ch]} =====
+
+${text_types(ch)}
+
+% endfor
+
+
+===== Literature =====
+!bblock
+
+!eblock
+
+ 
+
+
+
+
+

@@ -1,0 +1,142 @@
+=== Organizers ===
+David Dean, ORNL
+Stefano Gandolfi, LANL
+Gaute Hagen, ORNL
+Morten Hjorth-Jensen, MSU and UOslo
+Jason Holt, TRUMF
+Thomas Papenbrock, UTK and ORNL
+Martin Savage, INT and UW
+
+=== Project title ===
+Advances in many-body theories: from first principle methods to quantum computing and machine learning
+
+
+=== Tentative dates:  ===
+September-December 2019
+
+=== Expected number of participants: ===
+30-40
+=== Abstract for the ECT* website ===
+
+Quantum computing and machine learning are two of the most promising
+approaches for studying complex physical systems where several length
+and energy scales are involved.  Traditional many-particle methods,
+either quantum mechanical or classical ones, face huge dimensionality
+problems when applied to studies of systems with many interacting
+particles.  By bringing together experts from these fields, this
+workshop will explore the links between these exciting new approaches
+and traditional many-particle methods in order to map out future
+research paths.
+
+=== Scope of the workshop ===
+
+Quantum Computing offers now an interesting avenue, together with
+traditional algorithms, for studying complex quantum mechanical
+systems.  Machine learning algorithms for unsupervised learning have
+recently also been successfully applied to studies of interacting
+many-particle systems.  Enabling simulations of large-scale many-body
+systems is a long-standing problem in scientific computing. Quantum
+many-body interactions define the structure of the universe, from
+nucleons and nuclei, to atoms, molecules, and even stars. Since the
+discovery of quantum mechanics, a lot of progress has been made in
+understanding the dynamics of certain many-body systems. While some of
+our insight comes from a small set of analytically solvable models,
+numerical simulations have become a mainstay in our understanding of
+many-body dynamics. The progress in numerical simulations has
+accelerated in the last few decades with the advent of modern high
+performance computing and clever developments in classical simulation
+algorithms such as, various quantum Monte Carlo methods (from lattice QCD to the many-body problem), 
+large-scale diagonalization
+approaches, Coupled-Cluster theory and other renormalization schemes.
+Despite the monumental advances, classical simulation techniques are
+reaching fundamental limits in terms of the size of the quantum
+systems that can be processed. Fortunately, the disruptive new field
+of quantum simulations has emerged, promising to enable simulations
+far beyond those which are classically tractable. In particular,
+scientific applications concerned with simulations of interacting
+fermions on a lattice are poised to reap the benefits of quantum
+simulations.  Algorithms from Quantum Computing represent thus one
+possible path to overcome the dimensional curse of traditional
+many-body methods. Another alternative is to use Machine Learning
+algorithms to study quantum mechanical systems. Here one can think of
+using restricted Boltzmann machines and unsupervised learning to improve
+and optimize correlations in classical quantum mechanical many-body
+methods. There is quite some interest recently in this.
+
+
+The aim of this workshop is thus to bring together theorists who work
+on traditional first principle methods (from lattice QCD to the
+nuclear many-body problem) as well as scientists who have explored
+quantum computing and machine learning algorithms applied to
+interacting many-body systems. The aim is to map out future strategies
+and synergies between these various communities in order to develop
+further our knowledge and competences about strongly interacting
+quantum mechanical systems. The emphasis will be on interacting
+fermions and the nuclear many-body problem in particular, spanning
+from Lattice QCD to nuclei and dense nuclear matter.
+
+=== Scienfitic goals of the meeting ===
+
+The scientific goals of the meeting are 
+1) Present status of existing
+many-body theories, in particular with an emphasis on the nuclear
+many-body problem with Hamiltonians based on effective field
+theories. Present challenges for future studies and comparisons
+between different first principle methods.  
+2) Review the present
+status of Lattice QCD calculations and in particular applications to
+multi-nucleon systems and nuclear forces. Discuss challenges and
+future paths.  
+3) Present status of quantum many-body studies with
+quantum computing. Present challenges and possibilities for studies of
+nuclear many-body problems and to simulate these systems.  
+4) Present
+status of machine learning approaches to quantum many-body problems
+and present challenges and possibilities on how to simulate
+interacting fermionic systems.  
+5) Summarize and present future
+synergies for the nuclear many-body problem. The final aim is to wrap
+up a report with these summaries that will be widely disseminated via
+preprint services like ArXiv and finally as a regular article
+(European Journal of Physics A or Journal of Physics G or similar
+journals)
+
+
+=== Outline of the program ===
+
+The scientific program follows closely the five scientific goals
+outlined above. We aim at having talks in the morning, from 9am till
+1230pm and then fewer and shorter selected talks in the afternoon
+allowing for ample discussion time in order to map out synergies and
+fertilize new research paths.  The talks in the morning will be longer
+overview talks on the present status of various many-body theories, from Lattice
+QCD to many-body theories as well as presenting recent progress in
+quantum computing and machine learning applied to interacting
+many-body problems.  The last day will be devoted to shorter summary
+talks and drafting the final paper as well as for discussions.
+
+=== List of key speakers ===
+
+Dean Lee, Alexey Bazavov, Scott Bogner, Andrea Shindler, Hue-Wey Lin and Heiko Hergert, Michigan State University, expertise in many-body theories and Lattice QCD
+Joe Carlson and Diego Lonardoni, Los Alamos National Laboratory, expertise in many-body methods
+Titus Morris, Eugene Dumitrescu, Lougovski Pavel, Pooser Raphael and Gustav Jansen, Oak Ridge, quantum computing, quantum information theory and many-body theory 
+Ian Cloet, Argonne National Laboratory, quantum computing
+John Preskill, California Institute of Technology, quantum computing
+Giuseppe Carleo, ETH, Zurich, machine learning
+William Detmold, Massachusetts Institute of Technology, Lattice QCD and effective field theories
+Joaquin Drut, University of North Carolina, many-body theory
+Francesco Pederiva, University of Trento, many-body theory
+Kenneth Roche, Pacific Northwest National Laboratory, quantum computing 
+Matthias Troyer, Microsoft, machine learning and quantum computing
+Zohreh Davoudi, University of Maryland, lattice QCD and effective field theory
+Matthew Dietrich, Argonne National Laboratory
+Natalie Klco, University of Washington, quantum computing
+Ali Alavi and Alex Thom, University of Cambridge, many-body theory
+Karol Kowalski, Pacific Northwest National Laboratory, many-body theory
+Jennifer Lilieholm, University of Washington, quantum computing
+Petr Navratil, TRIUMF, many-body theory
+Alessandro Roggero, Los Alamos National Laboratory, quantum computing and many-body theory
+
+=== Budget ===
+
+We expect that all participants will cover their own travel. Some of us will be fully self-supported. We have not yet explored other sources of funding. This will be pursued in a more consistent way if the workshop gets approved. We would expect to receive support from various National Laboratories in the US and companies involved with the development of quantum computers. 

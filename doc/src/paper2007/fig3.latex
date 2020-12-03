@@ -1,0 +1,15 @@
+\setlength{\unitlength}{4144sp}%
+%
+\begingroup\makeatletter\ifx\SetFigFont\undefined%
+\gdef\SetFigFont#1#2#3#4#5{%
+  \reset@font\fontsize{#1}{#2pt}%
+  \fontfamily{#3}\fontseries{#4}\fontshape{#5}%
+  \selectfont}%
+\fi\endgroup%
+\begin{picture}(1104,384)(529,197)
+\thinlines
+\put(541,389){\line( 1, 0){360}}
+\put(901,209){\framebox(360,360){}}
+\put(1261,389){\line( 1, 0){360}}
+\put(1009,318){\makebox(0,0)[lb]{\smash{\SetFigFont{12}{14.4}{\familydefault}{\mddefault}{\updefault}T}}}
+\end{picture}

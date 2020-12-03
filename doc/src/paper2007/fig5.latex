@@ -1,0 +1,85 @@
+\setlength{\unitlength}{4144sp}%
+%
+\begingroup\makeatletter\ifx\SetFigFont\undefined%
+\gdef\SetFigFont#1#2#3#4#5{%
+  \reset@font\fontsize{#1}{#2pt}%
+  \fontfamily{#3}\fontseries{#4}\fontshape{#5}%
+  \selectfont}%
+\fi\endgroup%
+\begin{picture}(3354,2724)(529,-2413)
+\thinlines
+\put(819, 29){\framebox(270,270){}}
+\put(886, 97){\makebox(0,0)[lb]{\smash{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}H}}}
+\put(819,-601){\framebox(270,270){}}
+\put(886,-533){\makebox(0,0)[lb]{\smash{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}H}}}
+\put(811,-1051){\framebox(270,270){}}
+\put(878,-983){\makebox(0,0)[lb]{\smash{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}H}}}
+\put(811,-1501){\framebox(270,270){}}
+\put(878,-1433){\makebox(0,0)[lb]{\smash{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}H}}}
+\put(1441,-1366){\circle*{90}}
+\put(1981,-916){\circle*{90}}
+\put(2521,-466){\circle*{90}}
+\put(3511,164){\circle*{90}}
+\multiput(946,-61)(0.00000,-45.00000){7}{\makebox(1.5875,11.1125){\SetFigFont{5}{6}{\rmdefault}{\mddefault}{\updefault}.}}
+\put(541,164){\line( 1, 0){270}}
+\put(541,-466){\line( 1, 0){270}}
+\put(541,-916){\line( 1, 0){270}}
+\put(541,-1366){\line( 1, 0){270}}
+\put(541,-2041){\line( 1, 0){720}}
+\put(541,-2131){\line( 1, 0){720}}
+\put(541,-2221){\line( 1, 0){720}}
+\put(541,-2311){\line( 1, 0){720}}
+\put(1261,-2401){\framebox(360,450){}}
+\put(1621,-2041){\line( 1, 0){180}}
+\put(1621,-2131){\line( 1, 0){180}}
+\put(1621,-2221){\line( 1, 0){180}}
+\put(1621,-2311){\line( 1, 0){180}}
+\put(1801,-2401){\framebox(360,450){}}
+\put(2161,-2041){\line( 1, 0){180}}
+\put(2161,-2131){\line( 1, 0){180}}
+\put(2161,-2221){\line( 1, 0){180}}
+\put(2161,-2311){\line( 1, 0){180}}
+\put(2341,-2401){\framebox(360,450){}}
+\put(2701,-2041){\line( 1, 0){180}}
+\put(2701,-2131){\line( 1, 0){180}}
+\put(2701,-2311){\line( 1, 0){180}}
+\put(2701,-2221){\line( 1, 0){180}}
+\multiput(2926,-2176)(45.00000,0.00000){5}{\makebox(1.5875,11.1125){\SetFigFont{5}{6}{\rmdefault}{\mddefault}{\updefault}.}}
+\put(3151,-2041){\line( 1, 0){180}}
+\put(3151,-2131){\line( 1, 0){180}}
+\put(3151,-2221){\line( 1, 0){180}}
+\put(3151,-2311){\line( 1, 0){180}}
+\put(3331,-2401){\framebox(360,450){}}
+\put(3691,-2041){\line( 1, 0){180}}
+\put(3691,-2131){\line( 1, 0){180}}
+\put(3691,-2221){\line( 1, 0){180}}
+\put(3691,-2311){\line( 1, 0){180}}
+\put(1081,-1366){\line( 1, 0){1800}}
+\put(1081,-916){\line( 1, 0){1800}}
+\put(1081,-466){\line( 1, 0){1800}}
+\put(1081,164){\line( 1, 0){1800}}
+\multiput(2926,-1366)(45.00000,0.00000){5}{\makebox(1.5875,11.1125){\SetFigFont{5}{6}{\rmdefault}{\mddefault}{\updefault}.}}
+\multiput(2926,-916)(45.00000,0.00000){5}{\makebox(1.5875,11.1125){\SetFigFont{5}{6}{\rmdefault}{\mddefault}{\updefault}.}}
+\multiput(2926,-466)(45.00000,0.00000){5}{\makebox(1.5875,11.1125){\SetFigFont{5}{6}{\rmdefault}{\mddefault}{\updefault}.}}
+\multiput(2926,164)(45.00000,0.00000){5}{\makebox(1.5875,11.1125){\SetFigFont{5}{6}{\rmdefault}{\mddefault}{\updefault}.}}
+\put(3151,-1366){\line( 1, 0){720}}
+\put(3151,-916){\line( 1, 0){720}}
+\put(3151,-466){\line( 1, 0){720}}
+\put(3151,164){\line( 1, 0){720}}
+\put(1441,-1366){\line( 0,-1){585}}
+\put(1981,-916){\line( 0,-1){1035}}
+\put(2521,-466){\line( 0,-1){1485}}
+\put(3511,164){\line( 0,-1){2115}}
+\put(1306,-2266){\makebox(0,0)[lb]{\smash{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}U}}}
+\put(1846,-2266){\makebox(0,0)[lb]{\smash{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}U}}}
+\put(2386,-2266){\makebox(0,0)[lb]{\smash{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}U}}}
+\put(3376,-2266){\makebox(0,0)[lb]{\smash{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}U}}}
+\put(1426,-2146){\makebox(0,0)[lb]{\smash{\SetFigFont{7}{8.4}{\rmdefault}{\mddefault}{\updefault}2}}}
+\put(1976,-2161){\makebox(0,0)[lb]{\smash{\SetFigFont{7}{8.4}{\rmdefault}{\mddefault}{\updefault}2}}}
+\put(2511,-2161){\makebox(0,0)[lb]{\smash{\SetFigFont{7}{8.4}{\rmdefault}{\mddefault}{\updefault}2}}}
+\put(3511,-2151){\makebox(0,0)[lb]{\smash{\SetFigFont{7}{8.4}{\rmdefault}{\mddefault}{\updefault}2}}}
+\put(1481,-2071){\makebox(0,0)[lb]{\smash{\SetFigFont{5}{6.0}{\rmdefault}{\mddefault}{\updefault}0}}}
+\put(2041,-2086){\makebox(0,0)[lb]{\smash{\SetFigFont{5}{6.0}{\rmdefault}{\mddefault}{\updefault}1}}}
+\put(2571,-2086){\makebox(0,0)[lb]{\smash{\SetFigFont{5}{6.0}{\rmdefault}{\mddefault}{\updefault}2}}}
+\put(3551,-2076){\makebox(0,0)[lb]{\smash{\SetFigFont{5}{6.0}{\rmdefault}{\mddefault}{\updefault}t-1}}}
+\end{picture}

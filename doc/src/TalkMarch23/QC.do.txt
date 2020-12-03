@@ -1,0 +1,85 @@
+# Slides for PHY981
+TITLE: Quantum Computing for the Nuclear Many-Body Problem
+AUTHOR: National Superconducting Cyclotron Laboratory and Department of Physics and Astronomy, Michigan State University, East Lansing, MI 48824, USA
+DATE: today
+
+FIGURE: [qc.png, width=500 frac=0.6] 
+
+
+
+!split
+===== White Paper on Quantum Computing for Theoretical Nuclear Physics =====
+
+FIGURE: [fig1.png, width=1000 frac=0.7] 
+
+
+!split
+===== Strategies for Quantum Computing and Many-body Methods =====
+
+* Can we improve the capabilities (in particular the tackling of larger dimensionalities) of standard many-body methods using Quantum Computing? 
+
+* Similarity Renormalization Group and Coupled Cluster theories are widely popular many-body methods in quantum chemistry, theoretical nuclear physics, atomic, molecular and solid state physics
+ o "F. Yuan, S. J. Novario, N. M. Parzuchowski, S. Reimann, S. K. Bogner, MHJ, J. Chem. Phys. _147_, 164109 (2017)":"https://doi.org/10.1063/1.4995615"
+ o "G. Hagen, T. Papenbrock, MHJ, D. J. Dean, Rep. Prog. Phys. _77_, 096302 (2014)":"http://iopscience.iop.org/article/10.1088/0034-4885/77/9/096302/meta"
+* Other widely popular many-body physics methods are large-scale diagonalization approaches, many-body perturbation theory, Green's function approaches, various Monte Carlo approaches etc etc
+
+!split
+===== Quantum Computing and Coupled Cluster (CC) Theory  =====
+
+The ansatz for the wavefunction (ground state) is given by
+!bt
+\begin{equation*}
+   \vert \Psi\rangle = \vert \Psi_{CC}\rangle = e^{\hat{T}} \vert \Phi_0\rangle =  
+  \left( \sum_{n=1}^{A} \frac{1}{n!} \hat{T}^n \right) \vert \Phi_0\rangle,
+\end{equation*}
+!et
+where $A$ represents the maximum number of particle-hole excitations and $\hat{T}$ is the cluster operator defined as
+!bt
+\begin{align*}
+            \hat{T} &= \hat{T}_1 + \hat{T}_2 + \ldots + \hat{T}_A \\
+            \hat{T}_n &= \left(\frac{1}{n!}\right)^2 
+                \sum_{\substack{
+                        i_1,i_2,\ldots i_n \\
+                        a_1,a_2,\ldots a_n}}
+                t_{i_1i_2\ldots i_n}^{a_1a_2\ldots a_n} a_{a_1}^\dagger a_{a_2}^\dagger \ldots a_{a_n}^\dagger a_{i_n} \ldots a_{i_2} a_{i_1}.
+        \end{align*}
+!et
+
+
+
+!split
+=====  More on CC theory =====
+
+If we truncate our equations at the $T_2$ level, it corresponds to performing a similarity transformation of the Hamiltonian matrix of the following type for a six particle problem (with a two-body Hamiltonian)
+
+|---------------------------------------------------------------|
+|       |$0p-0h$ | $1p-1h$   | $2p-2h$ | $3p-3h$| $4p-4h$ | $5p-5h$ | $6p-6h$ | 
+|---------------------------------------------------------------|
+|$0p-0h$  |  $\tilde{x}$   |  $\tilde{x}$      |  $\tilde{x}$    |  0   |   0   |  0    |  0    |
+|$1p-1h$  |  0   |  $\tilde{x}$      |  $\tilde{x}$    |  $\tilde{x}$   |   0   |  0    |  0    |
+|$2p-2h$  |  0   |  $\tilde{x}$      |  $\tilde{x}$    |  $\tilde{x}$   |   $\tilde{x}$   |  0    |  0    |
+|$3p-3h$  |  0   |  $\tilde{x}$      |  $\tilde{x}$    |  $\tilde{x}$   |   $\tilde{x}$   |  $\tilde{x}$    |  0    |
+|$4p-4h$  |  0   |  0      |  $\tilde{x}$    |  $\tilde{x}$   |   $\tilde{x}$   |  $\tilde{x}$    |  $\tilde{x}$    |
+|$5p-5h$  |  0   |  0      |  0    |  $\tilde{x}$   |   $\tilde{x}$   |  $\tilde{x}$    |  $\tilde{x}$    |
+|$6p-6h$  |  0   |  0      |  0    |  0   |   $\tilde{x}$   |  $\tilde{x}$    |  $\tilde{x}$    |
+|---------------------------------------------------------------|
+
+Due to the mathematical properties of the similarity transformation, standard CC is non-variational and not unitary. Can we avoid this? Unitary CC theory and quantum computing!!
+
+!split 
+===== Quantum Computing and the Unitary Coupled Cluster (UCC) method =====
+
+The total energy of the system is obtained from the variational principle (with a Hartree-Fock reference state) as
+!bt
+\[
+E=\min_{\vec{t}} \langle \vert\textrm{HF} e^{-(T-T^{\dagger})} H e^{T-T^{\dagger}} \vert \textrm {HF}\rangle
+\]
+!et
+Compared with the standard Coupled Cluster scheme, the Baker-Campbell-Hausdorff expansion of the similarity transformed hamiltonian  cannot be truncated naturally at a given level of commutators.
+
+_However, there is great promise that we can implement the UCC efficiently on a quantum computer_. The recent work of Romero et al, "see arXiv:1701.02691":"https://arxiv.org/abs/1701.02691".  
+
+We are studying similar approaches with CC theory and Similarity Renormalization Group theory applied to the nuclear many-body problem. 
+
+See also
+* "Dumitrescu et al, Cloud Quantum Computing of an Atomic Nucleus, ArXiv:1801.03897":"https://arxiv.org/abs/1801.03897"
