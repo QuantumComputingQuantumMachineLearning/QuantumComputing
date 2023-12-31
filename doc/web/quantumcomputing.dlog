@@ -1,4 +1,0 @@
-running preprocess -DFORMAT=html -DDEVICE=screen  quantumcomputing.do.txt > tmp_preprocess__quantumcomputing.do.txt
-running mako on tmp_preprocess__quantumcomputing.do.txt to make tmp_mako__quantumcomputing.do.txt
-translating doconce text in tmp_mako__quantumcomputing.do.txt to html
-output in quantumcomputing.html
